@@ -1,0 +1,32 @@
+.day:first-child{
+    color: green;
+}
+
+.day:nth-child(2) {
+    color: red;
+    text-decoration: none;
+}
+.day:nth-child(3) {
+    color: orange;
+}
+.day:nth-child(4) {
+    color: purple;
+    text-decoration: none;
+}
+.day:last-child{
+    color: yellow;
+}
+
+.day:first-child:hover{
+    background-color: black;
+}
+
+.day:nth-child(2):focus{
+    background-color: red;
+}
+.day:nth-child(3):active{
+    background-color: gray;
+}
+.link:visited{
+    color: green;
+}
